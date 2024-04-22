@@ -303,30 +303,30 @@ hr{
         z-index: 5;
     }
     #firstImg{
-        width: 55%;
-        height: 20vh;
+        width: 100%;
+        height: 50vh;
     }
     .contain{
         display: flex;
         flex-direction: column;
-        width: 60%;
+        width: 100%;
         padding-left: 5px;
         padding-right: 5px;
     }
     #secImg{
         position: relative;
         right: 50px;
-        width: 90%;
-        height: 20vh;
+        width: 100%;
+        height: 50vh;
         text-align: center;
     }
     .welcome{
-        font-size: 0.8em;
+        font-size: 1em;
         position: relative;
         right: 20px;
     }
     .few{
-        font-size: 1em;
+        font-size: 2em;
         position: relative;
         right: 20px;
         margin: 0;
@@ -367,17 +367,18 @@ hr{
         flex-direction: column;
     }
     #mark{
-        margin-left: 30%;
+        margin-left: 40%;
         text-align: center;
     }
     .fast{
         text-align: start;
+        font-size: 1em;
     }
     .discover{
         color: white;
         margin-top: 20px;
         margin-bottom: 10px;
-        width: 90%;
+        width: 100%;
         height: 30px;
         position: relative;
         right: 20px;
@@ -385,7 +386,7 @@ hr{
     .track{
         background-color: rgb(195, 220, 230); 
         height: 60vh;
-        width: 60%;
+        width: 100%;
         padding-left: 5px;
         padding-right: 5px;
     }
@@ -416,12 +417,12 @@ hr{
         box-sizing: border-box;
         border: 1px solid transparent;
         padding: 5px;
-        font-size: 0.8em;
+        font-size: 1em;
         font-weight: bold;
-        width: 85%;
+        width: 100%;
     }
     input{
-        width: 85%; 
+        width: 90%; 
         border: none; 
         margin-left: 30px; 
         margin-top: 10px; 
@@ -432,13 +433,13 @@ hr{
         padding-left: 5px;
     }
     .trackButton{
-        width: 85%; 
+        width: 90%; 
         height: 30px; 
         margin-top: 5px;
         margin-left: 30px;
     }
     .ex{
-        width: 85%;
+        width: 90%;
         margin-left: 30px; 
         font-size: 15px;
         font-weight: bold;
@@ -450,14 +451,14 @@ hr{
     .imgTrack{
         margin: 0;
         position: relative;
-        left: 130px;
+        left: 50px;
     }
     #imgTrack{
-        width: 220px;
-        height: 170px;
+        width: 80%;
+        height: 35vh;
     }
     .serv{
-        margin-top: 80px;
+        margin-top: 200px;
         margin-left: 0;
         color: gray;
     }
@@ -469,7 +470,7 @@ hr{
     .serviceF{
         background-color: rgb(151, 151, 211); 
         height: 100vh;
-        width: 60%;
+        width: 100%;
         padding-left: 5px;
         padding-right: 5px;
     }
@@ -518,29 +519,29 @@ hr{
     #iconA{
         color: rgb(93, 191, 93); 
         position: relative; 
-        right: 65px; 
-        top: 10px; 
+        right: 150px; 
+        top: 30px; 
         font-size: 30px;
     }
     #iconB{
         color: rgb(94, 94, 186); 
         position: relative; 
-        right: 65px; 
-        top: 10px; 
+        right: 150px; 
+        top: 20px; 
         font-size: 30px;
     }
     #iconC{
         color: yellow; 
         position: relative; 
-        right: 65px; 
-        top: 10px; 
+        right: 150px; 
+        top: 20px; 
         font-size: 30px;
     }
     #iconD{
         color: orange; 
         position: relative; 
-        right: 65px; 
-        top: 10px; 
+        right: 150px; 
+        top: 20px;
         font-size: 30px;
     }
     .meetTeam{
@@ -555,18 +556,19 @@ hr{
         background-color:rgb(195, 220, 230);
         margin-top: 70px;
         margin-bottom: 0;
-        width: 60%;
+        width: 100%;
         padding-left: 5px;
         padding-right: 5px;
     }
     .meetOur{
-        font-size: 20px;
+        font-size: 30px;
+        text-align: start;
     }
     .goals-1{
         display: flex; 
         justify-content: space-around;
         flex-direction: column;
-        font-size: 12px;
+        font-size: 20px;
     }
     #checkMark{
         font-size: 1em;
@@ -576,19 +578,19 @@ hr{
         margin-top: 10px;
     }
     #imgWork{
-        width: 230px;
+        width: 100%;
     }
     .second{
         display: flex; 
         flex-direction: column;
         background-color:rgb(195, 220, 230); 
         gap: 50px;
-        width: 60%;
+        width: 100%;
         padding-left: 5px;
         padding-right: 5px;
     }
     #vault{
-        width: 230px;
+        width: 100%;
         margin-left: 0;
     }
     .vault-1{
@@ -600,13 +602,13 @@ hr{
     }
     .vault-3{
         color:rgb(94, 94, 186); 
-        font-size: 13px;
+        font-size: 20px;
         word-wrap: break-word;
     }
     .vault-4{
         display: flex;
         flex-direction: column;
-        font-size: 12px;
+        font-size: 20px;
         margin-bottom: 10px;
     }
     .footDiv{
@@ -622,29 +624,29 @@ hr{
     footer{
         background-color: rgb(17, 17, 92); 
         color: white; 
-        height: 100vh;
-        width: 60%;
+        height: 150vh;
+        width: 100%;
         padding-left: 5px;
         padding-right: 5px;
     }
     hr{
-        width: 50%;
+        width: 100%;
         margin: 0;
     }
     .footImg{
-        width: 125px;
+        width: 100%;
     }
     .footer-quick{
         margin-top: 0;
-        font-size: 13px;
+        font-size: 20px;
     }
     .footer-1{
-        font-size: 13px;
+        font-size: 20px;
     }
     .lastFoot{
         display: flex; 
         align-items: center; 
         gap: 10px;
-        font-size: 10px;
+        font-size: 20px;
     }
 }
