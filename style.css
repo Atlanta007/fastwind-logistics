@@ -49,6 +49,14 @@ h1{
     font-size: 20px;
     font-weight: bold;
 }
+.unique-1{
+    color: rgb(94, 94, 186);
+    padding-left: 10px;
+    font-size: 20px;
+    position: relative;
+    right: 12px;
+    font-weight: bold;
+}
 #freightIcon{
     font-size: 40px;
 }
@@ -284,12 +292,6 @@ hr{
     align-items: center; 
     gap: 10px;
 }
-
-
-
-
-
-
 @media  (max-width: 414px){
     body{
         overflow-x: hidden;
@@ -347,11 +349,13 @@ hr{
         position: relative;
         right: 10px;
     }
-    .freight-flex{
-        position: relative;
-        right: 70px;
+    #ocean-1{
         display: flex;
         flex-direction: column;
+        position: relative;
+        margin: 0;
+        gap: 0;
+        right: 70px;
     }
     #freightIcon{
         font-size: 20px;
@@ -624,7 +628,7 @@ hr{
     footer{
         background-color: rgb(17, 17, 92); 
         color: white; 
-        height: 150vh;
+        height: 180vh;
         width: 100%;
         padding-left: 5px;
         padding-right: 5px;
